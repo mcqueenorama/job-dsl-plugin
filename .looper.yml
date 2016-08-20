@@ -6,3 +6,4 @@ script:
   - which gradle
   - gradle -v
   - echo QGRADLE_VERSION `which gradle`
+  - gradle build
