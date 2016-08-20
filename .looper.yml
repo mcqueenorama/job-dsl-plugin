@@ -1,0 +1,8 @@
+language: java
+gradle: 3.0
+script:
+  - echo ok
+  - env
+  - which gradle
+  - gradle -v
+  - echo QGRADLE_VERSION `which gradle`
